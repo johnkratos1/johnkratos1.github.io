@@ -72,9 +72,7 @@ body {
   display: flex;
   margin: 0px 30px;
   justify-content: center;
-  align-items: center;
-  height: 80vh;
-  background-color: rgb(212, 208, 208);
+  height: 75vh;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -87,6 +85,9 @@ body {
   font-weight: 300;
 }
 .hero .text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11%;
   width: 50%;
 }
 .hero .me-img {
@@ -97,11 +98,11 @@ body {
   border-bottom-right-radius: 100px;
   border-bottom-left-radius: 100px;
   overflow: hidden;
-  background-color: rgba(204, 212, 212, 0.178);
+  margin-top: 50px;
 }
 .hero .me-img > img {
   width: 90%;
-  height: 100%;
+  height: 120%;
 }
 
 .dark {
@@ -118,6 +119,9 @@ body {
   box-shadow: 2px 1px 0px 1px rgb(150, 201, 250);
   transition: 1s;
 }
+.dark a {
+  color: white;
+}
 
 .about {
   display: flex;
@@ -133,7 +137,6 @@ body {
   width: 50%;
   height: 100%;
   padding: 0px 20px;
-  background-color: aliceblue;
 }
 .about .tool-section {
   display: flex;
@@ -143,7 +146,6 @@ body {
   width: 50%;
   height: 100%;
   padding: 0px 20px;
-  background-color: aliceblue;
 }
 .about h2 {
   font-size: 30px;
@@ -167,7 +169,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  background-color: rgb(171, 179, 190);
   margin: 0px 30px;
 }
 .projects h2 {
@@ -234,7 +235,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(7, 37, 37);
   color: rgb(97, 97, 96);
   margin: 0px 30px;
 }
